@@ -90,8 +90,10 @@ Outputs
 → See interactive roster comparisons and player role distributions
 https://public.tableau.com/app/profile/austin.abraham5815/viz/NBAathleteyoungvsold/AgeDashboard
 
+Youtube Project Walkthrough ( trade recommender part)
+https://youtu.be/-bg97gmqsvw
 
-Huggine face spaces nba app
+Hugging face spaces nba app
 https://huggingface.co/spaces/pharaohleft/nba-role-search
 
 ✍️ Substack Blog
