@@ -3,14 +3,14 @@
 
 ---
 
-## 🏀 Project Overview
+##  Project Overview
 This project applies a **Moneyball-style analytical framework** to NBA roster construction. Instead of evaluating players in isolation, this analysis treats a roster as a **system** where performance emerges from role fit, usage allocation, and lineup balance. 
 
 The goal is to support data-driven roster strategy, trade evaluation, and recruitment decisions under real-world constraints such as salary caps and role redundancy.
 
 ---
 
-## 💼 Business Problem
+##  Business Problem
 NBA front offices face a recurring strategic challenge: **How can a team compete effectively when star players are scarce, expensive, or injured?**
 
 Traditional evaluation methods often:
@@ -74,7 +74,7 @@ https://youtu.be/-bg97gmqsvw
 Hugging face spaces nba app
 https://huggingface.co/spaces/pharaohleft/nba-role-search
 
-✍️ Substack Blog
+ Substack Blog
 → Narrative walkthrough of insights and roster logic
 
 https://pharaohleft.substack.com/p/data-driven-investigation-into-what
