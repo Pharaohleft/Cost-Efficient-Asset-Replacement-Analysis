@@ -1,5 +1,0 @@
-gradio==4.24.0
-pandas
-plotly
-numpy
-scikit-learn
