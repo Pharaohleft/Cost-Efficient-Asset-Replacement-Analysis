@@ -32,6 +32,7 @@ This project reframes roster building as a **resource allocation problem**, rath
 2.	Liquidity Freeze: Teams cannot aggregate salaries in trades, cannot send cash in deals, and cannot use existing Trade Exceptions (TEs).
 3.	The "One-Way" Trap: High-salary players become immovable assets because opposing teams cannot aggregate smaller contracts to match the salary.
 4.	By utilizing Principal Component Analysis (PCA) to reduce noise and Cosine Similarity to identify statistically similar players, we identify low-cost assets (Minimum/Mid-Level Exception players) that provide >85% statistical similarity to high-cost stars but with lower volume.
+- - -
 
 ## Data Used
 The data was pulled using beautifulsoup to scrape nba stats table for 2014 – 2024
@@ -66,7 +67,7 @@ Key data components:
 All numeric features were standardized prior to analysis to ensure comparability across metrics with different scales.
 <img width="752" height="456" alt="Picture1" src="https://github.com/user-attachments/assets/251da94a-5d35-4c15-9b24-fa7972c14285" />
 
-
+- - - 
 ##  Key Questions Answered
 •	Which players provide the highest on-court production relative to their cost?
 •	Which high-salary players have statistically similar lower-cost alternatives?
@@ -243,7 +244,7 @@ Aggregate Output:
 •	Total Cost: $22.5M (43% Savings)
 •	Aggregate PPG: 28.4 PPG (+3.6 vs Target)
 •	Aggregate 3P%: 38.1% (+1.1% vs Target).
-
+---
 
 ##  KPIs & Decision Metrics
 Key Performance Indicators used in this analysis include:
@@ -265,10 +266,11 @@ Key Performance Indicators used in this analysis include:
 1.	Cluster Composition Metrics
 •	Players per cluster
 •	Cluster-level average PTS/AST/TRB/STL/BLK
-
+---
 ## Overview of Findings
 NBA player contribution is highly concentrated within a small number of high-usage roles. Clustering analysis reveals that a limited subset of players accounts for a disproportionate share of scoring and playmaking across the league. Similarity analysis shows that many statistically comparable players exist within these roles, suggesting underutilized substitution and load-management opportunities. Age-based analysis demonstrates that scoring output peaks in the mid-to-late 20s for guards and wings, followed by a sharp decline after age 30, with only a small number of outliers sustaining elite production.
 
+---
 ## Recommendations
 •	Instead of overpaying for "Elite Cluster" players, we should target the "Borderline" players identified in the PCA outputs (e.g., players statistically similar to the "Two-Way Threat" cluster but undervalued).
 Return on Investment (ROI): Deploying this framework allows a franchise to potentially reduce payroll by 15-20% while maintaining 95% of Projected Wins Above Replacement (WAR), effectively keeping the team below the Second Apron while competing for a championship.
@@ -277,6 +279,7 @@ Return on Investment (ROI): Deploying this framework allows a franchise to poten
 •	Monitor borderline players closely due to higher performance volatility
 •	Balance roster composition to reduce concentration of salary within a single role
 
+---
 ##  Assumptions & Caveats
 •	Season-level data masks short-term variance
 •	Raw PPG favors high-usage roles
@@ -285,19 +288,18 @@ Return on Investment (ROI): Deploying this framework allows a franchise to poten
 •	Public data does not reflect internal tracking or player development projections
 •	Salary figures are treated as external context rather than modeled directly
 
+---
 
-
-📊 Tableau Public Dashboard
+### Tableau Public Dashboard
 → See interactive roster comparisons and player role distributions
 https://public.tableau.com/app/profile/austin.abraham5815/viz/NBAathleteyoungvsold/AgeDashboard
 
-Youtube Project Walkthrough ( trade recommender part)
+### Youtube Project Walkthrough ( trade recommender part)
 https://youtu.be/-bg97gmqsvw
 
-Hugging face spaces nba app
+### Hugging face spaces nba app
 https://huggingface.co/spaces/pharaohleft/nba-role-search
 
- Substack Blog
+ ### Substack Blog
 → Narrative walkthrough of insights and roster logic
-
 https://pharaohleft.substack.com/p/data-driven-investigation-into-what
